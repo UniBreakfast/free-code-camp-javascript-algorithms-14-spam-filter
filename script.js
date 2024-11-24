@@ -23,3 +23,11 @@ checkMessageButton.addEventListener("click", () => {
     : "This message does not seem to contain any spam.";
   messageInput.value = "";
 });
+
+messageInput.value = Math.random() > 0.5 
+  ? `Hello there!
+
+Big news! An unexpected glitch has left me with an extra money! A hundred thousand dollars, can you believe? I urgently need your help to make the most of it before it's too late. Your support means a lot!`
+  : `Dear Friend,
+
+Stock Alert! Due to an unexpected glitch, I now have 300 thousand dollars in free money! Please help assist me in spending it before anyone notices!`
